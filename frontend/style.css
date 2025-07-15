@@ -73,12 +73,9 @@ header section
     box-shadow: 0 0 10px black;
     position: sticky;
     top: 0;
-<<<<<<< HEAD
-=======
 
     /* for hover issue */
     z-index: 1000;
->>>>>>> baef723285ae5cee80733639eced963fb51c1698
 }
 
 .main-nav a{
@@ -118,11 +115,7 @@ quiz boxes....(jav,py..)
 .quiz-packages-section {
     text-align: center;
     margin-top: 40px;
-<<<<<<< HEAD
-    
-=======
     background: url("../frontend//images/17580.jpg") no-repeat scroll center;
->>>>>>> baef723285ae5cee80733639eced963fb51c1698
 }
 
 .quiz-packages-section .quiz-heading{
@@ -188,10 +181,7 @@ Performer quiz section
 
 .Performer-quiz-section{
     text-align: center;
-<<<<<<< HEAD
-=======
     background: url("../frontend//images/17580.jpg") no-repeat scroll center;
->>>>>>> baef723285ae5cee80733639eced963fb51c1698
 }
 
 .Performer-quiz-section .quiz-heading{
@@ -217,14 +207,11 @@ Performer quiz section
     gap: 10px;
     padding: 10px;
     margin-top: 20px;
-<<<<<<< HEAD
-=======
 
     /* for hover issue */
     position: relative;
     z-index: 1;
 
->>>>>>> baef723285ae5cee80733639eced963fb51c1698
 }
 
 .image-card img{
@@ -238,10 +225,7 @@ Performer quiz section
 .image-card img:hover{
     transform: scale(1.1);   /*Scales the image up on hover*/
     box-shadow: 0 10px 15px rgba(0,0,0,0.2);    /* Adds shadow effect on hover */
-<<<<<<< HEAD
-=======
     z-index: 0; /* for hover issue */
->>>>>>> baef723285ae5cee80733639eced963fb51c1698
 }
 
 
@@ -251,26 +235,14 @@ notes section
 
 .notes-section{
     text-align: center;
-<<<<<<< HEAD
-    padding: 60px;
-=======
     padding: 100px;
     background: url("../frontend//images/17580.jpg") no-repeat scroll center;
->>>>>>> baef723285ae5cee80733639eced963fb51c1698
 }
 
 .notes-section .notes-div{
     margin-top: 20px;
-<<<<<<< HEAD
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    column-gap: 0px; /* Reduced horizontal space */
-    row-gap: 10px; /* Space between photos */
-    padding-left: 50px;
-=======
     row-gap: 10px; /* Space between photos */
     
->>>>>>> baef723285ae5cee80733639eced963fb51c1698
 }
 
 .notes-section .notes-wrapper{
@@ -284,18 +256,11 @@ notes section
     margin: 20px ;
 }
 
-<<<<<<< HEAD
-notes-section .notes-wrapper img{
-    width: 100%;
-    height: 100%;
-    transition: all 0.5s;
-=======
  .notes-wrapper img{
     width: 100%;
     height: 100%;
     transition: all 0.5s;
     
->>>>>>> baef723285ae5cee80733639eced963fb51c1698
 }
 
 .notes-section .notes-wrapper img:hover{
