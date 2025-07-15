@@ -268,13 +268,36 @@ notes section
     cursor: pointer;
 }
 
+.custom-footer {
+  background: linear-gradient(to right, #3a0ca3, #7209b7); /* Smooth purple-blue gradient */
+  color: #f3f3f3;
+  padding: 25px 10px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+}
 
-.footer-section{
-    background-color: rgb(162, 177, 182);
-    padding: 40px;
-    text-align: center;
-    color: teal;
-    text-decoration: none;
-    font-weight: bold;
-    margin-top: 50px;
+.footer-content p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.social-links {
+  margin: 10px 0;
+}
+
+.social-links a {
+  color: #ffffff;
+  font-size: 22px;
+  margin: 0 12px;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ffd60a; /* Smooth yellow on hover */
+}
+
+.rights {
+  font-size: 13px;
+  color: #ddd;
 }
