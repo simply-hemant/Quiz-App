@@ -16,18 +16,18 @@ public class LoginController {
     @Autowired
     QuestionService questionService;
 
-    // Hardcoded credentials for now
-    private final String USERNAME = "user";
-    private final String PASSWORD = "password";
+    // // Hardcoded credentials for now
+    // private final String USERNAME = "user";
+    // private final String PASSWORD = "password";
 
-    @PostMapping("/login")
-    public String login(@RequestBody LoginRequest loginRequest) {
-        if (USERNAME.equals(loginRequest.getUsername()) && PASSWORD.equals(loginRequest.getPassword())) {
-            return "Login Successful!";
-        } else {
-            return "Invalid username or password";
-        }
-    }
+    // @PostMapping("/login")
+    // public String login(@RequestBody LoginRequest loginRequest) {
+    //     if (USERNAME.equals(loginRequest.getUsername()) && PASSWORD.equals(loginRequest.getPassword())) {
+    //         return "Login Successful!";
+    //     } else {
+    //         return "Invalid username or password";
+    //     }
+    // }
 
     @GetMapping("/questions")
     public List<QuizQuestions> getQuestions()
