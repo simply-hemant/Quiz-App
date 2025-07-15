@@ -10,7 +10,8 @@ public class Webconfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry)
     {
         registry.addMapping("/**")  // Allows all endpoints
-                .allowedOrigins("http://127.0.0.1:5500")   // allow for fronted origin
+                //.allowedOrigins("http://127.0.0.1:5500")   // allow for fronted origin
+                .allowedOrigins("https://your-frontend-domain.onrender.com")
                 .allowedMethods("GET", "POST", "PUT", "OPTIONS")
                 .allowedHeaders("*")
                 .allowCredentials(true);
