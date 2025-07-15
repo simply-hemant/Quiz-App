@@ -1,8 +1,6 @@
 package com.simply.Quiz_app.dto;
 
 public class LoginRequest {
-<<<<<<< HEAD
-=======
 
     private String username;
     private String password;
@@ -24,5 +22,4 @@ public class LoginRequest {
         this.password = password;
     }
 
->>>>>>> baef723285ae5cee80733639eced963fb51c1698
 }
