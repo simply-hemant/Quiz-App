@@ -19,7 +19,8 @@ INSERT INTO quiz_questions (question_text, correct_answer) VALUES
 (17, 'Which method converts a string to lowercase?', 'lower()', 'python'),
 (18, 'Which operator is used for exponentiation?', '**', 'python'),
 (19, 'Which keyword is used to define a class in Python?', 'class', 'python'),
-(20, 'What is the output of bool(\'False\')?', 'True', 'python'),
+(20, 'Which keyword is used for loops in Python?', 'for', 'python'),
+
 
 (21, 'What is the file extension for C++?', '.cpp', 'cpp'),
 (22, 'Which symbol is used to declare a pointer?', '*', 'cpp'),
@@ -65,7 +66,7 @@ INSERT INTO question_options (question_id, option_text) VALUES
 (17, 'lower()'), (17, 'toLower()'), (17, 'downcase()'), (17, 'convertLower()'),
 (18, '^'), (18, '**'), (18, '*'), (18, 'exp()'),
 (19, 'object'), (19, 'define'), (19, 'class'), (19, 'struct'),
-(20, 'True'), (20, 'False'), (20, 'None'), (20, 'Error'),
+(20, 'loop'), (20, 'iterate'), (20, 'for'), (20, 'foreach'),
 
 (21, '.c'), (21, '.cpp'), (21, '.cp'), (21, '.cc'),
 (22, '&'), (22, '*'), (22, '#'), (22, '%'),
