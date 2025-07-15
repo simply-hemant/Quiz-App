@@ -1,4 +1,4 @@
-INSERT INTO quiz_question (id, question_text, correct_answer, category) VALUES
+INSERT INTO quiz_questions (question_text, correct_answer) VALUES
 (1, 'Which keyword is used to define a constant in Java?', 'final', 'java'),
 (2, 'What is the default value of a boolean variable in Java?', 'false', 'java'),
 (3, 'Which method is used to start a thread in Java?', 'start()', 'java'),
