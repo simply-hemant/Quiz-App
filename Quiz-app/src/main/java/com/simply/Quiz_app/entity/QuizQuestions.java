@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 import java.util.List;
 
 @Entity
+@Table(name = "quiz_questions")
 public class QuizQuestions {
 
     @Id
@@ -18,7 +19,6 @@ public class QuizQuestions {
     @ElementCollection
     @CollectionTable(name = "question_options" , joinColumns = @JoinColumn(name = "question_id"))
     @Column(name = "option_text")
-
     private List<String> options;
 
     public Long getId() {
