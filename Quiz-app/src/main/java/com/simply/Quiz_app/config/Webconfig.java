@@ -11,7 +11,7 @@ public class Webconfig implements WebMvcConfigurer {
     {
         registry.addMapping("/**")  // Allows all endpoints
                 //.allowedOrigins("http://127.0.0.1:5500")   // allow for fronted origin
-                .allowedOrigins("https://your-frontend-domain.onrender.com")
+                .allowedOrigins("https://quiz-app-k1ge.onrender.com")
                 .allowedMethods("GET", "POST", "PUT", "OPTIONS")
                 .allowedHeaders("*")
                 .allowCredentials(true);
