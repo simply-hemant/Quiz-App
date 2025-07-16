@@ -35,6 +35,12 @@ public class LoginController {
         return questionService.getAllQuestions();
     }
 
+    @GetMapping("/test")
+    public String test() {
+        return "API is working!";
+    }
+
+
 //    @PostMapping(value = "/save", consumes = "application/json", produces = "application/json")
 //    public QuizQuestions saveQuestions(@RequestBody QuizQuestions questions)
 //    {
