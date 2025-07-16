@@ -37,6 +37,9 @@ public class LoginController {
 
     @GetMapping("/test")
     public String test() {
+
+            System.out.println("✅ /api/test endpoint hit!");
+
         return "API is working!";
     }
 
