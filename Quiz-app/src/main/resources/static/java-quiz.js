@@ -6,7 +6,7 @@ let totalQuestions = 0; // This will be set dynamically based on the API respons
 // Function to fetch questions from the API
 async function fetchQuestions() {
     try {
-        const response = await fetch('https://quiz-app-k1ge.onrender.com'); // API URL
+        const response = await fetch('https://quiz-app-k1ge.onrender.com/api/questions'); // API URL
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
