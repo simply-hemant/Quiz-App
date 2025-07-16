@@ -6,7 +6,7 @@ let totalQuestions = 0;
 // Function to fetch Python questions (IDs 11-20)
 async function fetchQuestions() {
     try {
-        const response = await fetch('http://localhost:8080/api/questions'); // API URL
+        const response = await fetch('https://quiz-app-k1ge.onrender.com/api/questions'); // API URL
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
