@@ -1,89 +1,72 @@
---INSERT INTO quiz_questions (question_text, correct_answer, category) VALUES
---('Which keyword is used to define a constant in Java?', 'final', 'java'),
---('What is the default value of a boolean variable in Java?', 'false', 'java'),
---('Which method is used to start a thread in Java?', 'start()', 'java'),
---('Which of the following is not a primitive data type in Java?', 'String', 'java'),
---('What is the size of an int in Java?', '4 bytes', 'java'),
---('Which operator is used to compare two values in Java?', '==', 'java'),
---('What is the superclass of all classes in Java?', 'Object', 'java'),
---('Which package is automatically imported in every Java program?', 'java.lang', 'java'),
---('What is the output of the expression 5 + 2 * 3 in Java?', '11', 'java'),
---('Which of these access modifiers makes a variable accessible only within its own class?', 'private', 'java'),
---
---('Who developed Python?', 'Guido van Rossum', 'python'),
---('Which keyword is used to define a function in Python?', 'def', 'python'),
---('What data type is the result of 3 / 2 in Python 3?', 'float', 'python'),
---('Which of the following is a mutable data type?', 'list', 'python'),
---('What is used to handle exceptions in Python?', 'try-except', 'python'),
---('What symbol is used for comments in Python?', '#', 'python'),
---('Which method converts a string to lowercase?', 'lower()', 'python'),
---('Which operator is used for exponentiation?', '**', 'python'),
---('Which keyword is used to define a class in Python?', 'class', 'python'),
---('Which keyword is used for loops in Python?', 'for', 'python'),
---
---('What is the file extension for C++?', '.cpp', 'cpp'),
---('Which symbol is used to declare a pointer?', '*', 'cpp'),
---('Which header is used for input/output in C++?', 'iostream', 'cpp'),
---('Which keyword is used to define a constant in C++?', 'const', 'cpp'),
---('Which operator is used to access members of a class via pointer?', '->', 'cpp'),
---('What is the default access modifier in class?', 'private', 'cpp'),
---('What is the use of "new" in C++?', 'Dynamic memory allocation', 'cpp'),
---('Which loop ensures execution at least once?', 'do-while', 'cpp'),
---('What is STL in C++?', 'Standard Template Library', 'cpp'),
---('Which function is used to allocate memory in C++?', 'new', 'cpp'),
---
---('Which keyword is used to declare variables in JavaScript?', 'let', 'js'),
---('Which method is used to parse JSON?', 'JSON.parse()', 'js'),
---('What does NaN stand for?', 'Not a Number', 'js'),
---('Which company developed JavaScript?', 'Netscape', 'js'),
---('Which symbol is used for comments in JavaScript?', '//', 'js'),
---('What is the type of "null" in JavaScript?', 'object', 'js'),
---('What is used to define asynchronous code?', 'async/await', 'js'),
---('Which array method adds an element at the end?', 'push()', 'js'),
---('Which operator is used to compare value and type?', '===', 'js'),
---('How do you define a function in JavaScript?', 'function', 'js');
---
---INSERT INTO question_options (question_id, option_text) VALUES
---(1, 'const'), (1, 'final'), (1, 'static'), (1, 'constant'),
---(2, 'true'), (2, 'false'), (2, '1'), (2, 'null'),
---(3, 'start()'), (3, 'run()'), (3, 'begin()'), (3, 'init()'),
---(4, 'int'), (4, 'boolean'), (4, 'String'), (4, 'char'),
---(5, '2 bytes'), (5, '4 bytes'), (5, '8 bytes'), (5, '16 bytes'),
---(6, '='), (6, '=='), (6, '!='), (6, 'equals()'),
---(7, 'Class'), (7, 'Object'), (7, 'Superclass'), (7, 'Main'),
---(8, 'java.io'), (8, 'java.lang'), (8, 'java.util'), (8, 'java.text'),
---(9, '21'), (9, '11'), (9, '15'), (9, '17'),
---(10, 'public'), (10, 'private'), (10, 'protected'), (10, 'default'),
---
---(11, 'Dennis Ritchie'), (11, 'Guido van Rossum'), (11, 'Bjarne Stroustrup'), (11, 'James Gosling'),
---(12, 'function'), (12, 'def'), (12, 'define'), (12, 'fun'),
---(13, 'int'), (13, 'float'), (13, 'str'), (13, 'double'),
---(14, 'tuple'), (14, 'list'), (14, 'int'), (14, 'str'),
---(15, 'try-catch'), (15, 'try-except'), (15, 'handle'), (15, 'error'),
---(16, '//'), (16, '#'), (16, '/*'), (16, '--'),
---(17, 'lower()'), (17, 'toLower()'), (17, 'downcase()'), (17, 'convertLower()'),
---(18, '^'), (18, '**'), (18, '*'), (18, 'exp()'),
---(19, 'object'), (19, 'define'), (19, 'class'), (19, 'struct'),
---(20, 'loop'), (20, 'iterate'), (20, 'for'), (20, 'foreach'),
---
---(21, '.c'), (21, '.cpp'), (21, '.cp'), (21, '.cc'),
---(22, '&'), (22, '*'), (22, '#'), (22, '%'),
---(23, 'stdio.h'), (23, 'input.h'), (23, 'iostream'), (23, 'stream.h'),
---(24, 'define'), (24, 'const'), (24, 'static'), (24, 'constant'),
---(25, '.'), (25, '->'), (25, '::'), (25, 'access()'),
---(26, 'public'), (26, 'private'), (26, 'protected'), (26, 'internal'),
---(27, 'Variable declaration'), (27, 'Static memory'), (27, 'Dynamic memory allocation'), (27, 'Looping'),
---(28, 'while'), (28, 'for'), (28, 'do-while'), (28, 'loop'),
---(29, 'Standard Type Library'), (29, 'Simple Template Library'), (29, 'Standard Template Library'), (29, 'System Type Library'),
---(30, 'malloc'), (30, 'new'), (30, 'alloc'), (30, 'calloc'),
---
---(31, 'int'), (31, 'let'), (31, 'var'), (31, 'dim'),
---(32, 'parse()'), (32, 'JSON.parse()'), (32, 'eval()'), (32, 'convert()'),
---(33, 'Null and None'), (33, 'Not a Number'), (33, 'No actual Number'), (33, 'Numeric and Null'),
---(34, 'Microsoft'), (34, 'Oracle'), (34, 'Netscape'), (34, 'Sun'),
---(35, '//'), (35, '#'), (35, '<!--'), (35, '/*'),
---(36, 'undefined'), (36, 'null'), (36, 'object'), (36, 'NaN'),
---(37, 'setTimeout'), (37, 'then'), (37, 'async/await'), (37, 'callback'),
---(38, 'pop()'), (38, 'shift()'), (38, 'push()'), (38, 'add()'),
---(39, '=='), (39, '='), (39, '==='), (39, '~='),
---(40, 'def'), (40, 'function'), (40, 'fn'), (40, 'declare');
+INSERT INTO quiz_question (question_text, correct_answer) VALUES
+('Which keyword is used to define a constant in Java?', 'final'),
+('What is the default value of a boolean variable in Java?', 'false'),
+('Which method is used to start a thread in Java?', 'start()'),
+('Which of the following is not a primitive data type in Java?', 'String'),
+('What is the size of an int in Java?', '4 bytes'),
+('Which operator is used to compare two values in Java?', '=='),
+('What is the superclass of all classes in Java?', 'Object'),
+('Which package is automatically imported in every Java program?', 'java.lang'),
+('What is the output of the expression 5 + 2 * 3 in Java?', '11'),
+('Which of these access modifiers makes a variable accessible only within its own class?', 'private');
+
+INSERT INTO question_options (question_id, option_text) VALUES
+-- Question 1: Which keyword is used to define a constant in Java?
+(1, 'const'),
+(1, 'final'),
+(1, 'static'),
+(1, 'constant'),
+
+-- Question 2: What is the default value of a boolean variable in Java?
+(2, 'true'),
+(2, 'false'),
+(2, '1'),
+(2, 'null'),
+
+-- Question 3: Which method is used to start a thread in Java?
+(3, 'start()'),
+(3, 'run()'),
+(3, 'begin()'),
+(3, 'init()'),
+
+-- Question 4: Which of the following is not a primitive data type in Java?
+(4, 'int'),
+(4, 'boolean'),
+(4, 'String'),
+(4, 'char'),
+
+-- Question 5: What is the size of an int in Java?
+(5, '2 bytes'),
+(5, '4 bytes'),
+(5, '8 bytes'),
+(5, '16 bytes'),
+
+-- Question 6: Which operator is used to compare two values in Java?
+(6, '='),
+(6, '=='),
+(6, '!='),
+(6, 'equals()'),
+
+-- Question 7: What is the superclass of all classes in Java?
+(7, 'Class'),
+(7, 'Object'),
+(7, 'Superclass'),
+(7, 'Main'),
+
+-- Question 8: Which package is automatically imported in every Java program?
+(8, 'java.io'),
+(8, 'java.lang'),
+(8, 'java.util'),
+(8, 'java.text'),
+
+-- Question 9: What is the output of the expression 5 + 2 * 3 in Java?
+(9, '21'),
+(9, '11'),
+(9, '15'),
+(9, '17'),
+
+-- Question 10: Which of these access modifiers makes a variable accessible only within its own class?
+(10, 'public'),
+(10, 'private'),
+(10, 'protected'),
+(10, 'default');
